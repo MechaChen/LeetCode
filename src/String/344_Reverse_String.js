@@ -7,6 +7,11 @@
     }
 */
 
+/*
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+*/
+
 function reverseString(s) {
     let temp;
     for (let i = 0; i < s.length / 2; i++) {
