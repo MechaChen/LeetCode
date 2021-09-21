@@ -1,16 +1,17 @@
 /* Though in Plain English */
-/*  declare a temp to store character which will be swaped
-    for(index begin with first string ; if below half of string length; index ++) {
-        temp = cur character
-        string[index] = string[counterpart index of string]
-        s[counterpart position] = temp;
-    }
-*/
+/**
+ * declare a temp to store character which will be swaped
+ *  for(index begin with first string ; if below half of string length; index ++) {
+ *      temp = cur character
+ *      string[index] = string[counterpart index of string]
+ *      s[counterpart position] = temp;
+ *  }
+ */
 
-/*
-    Time Complexity: O(n)
-    Space Complexity: O(1)
-*/
+/**
+ * @Time : O(n)
+ * @Space : O(1)
+ */
 
 function reverseString(s) {
     let temp;
